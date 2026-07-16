@@ -1,0 +1,810 @@
+{
+  "@@locale": "en",
+  "appName": "WatchTogether",
+  "@appName": {
+    "description": "The application name"
+  },
+  "appTagline": "Watch together, no matter the distance",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "error": "Error",
+  "somethingWentWrong": "Something went wrong",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "next": "Next",
+  "back": "Back",
+  "done": "Done",
+  "splashTagline": "Watch together.\nAnywhere.\nAnytime.",
+  "appVersionLabel": "Version {version}",
+  "@appVersionLabel": {
+    "description": "Version number shown on the splash screen",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "splashLogoSemanticLabel": "WatchTogether Logo",
+  "splashLoadingSemanticLabel": "Loading Application",
+  "skip": "Skip",
+  "getStarted": "Get Started",
+  "changeLanguageSemanticLabel": "Change Language",
+  "onboardingPageIndicatorLabel": "Page {page} of {total}",
+  "@onboardingPageIndicatorLabel": {
+    "description": "Accessibility label for an onboarding page indicator dot",
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingPage1Title": "Watch Together",
+  "onboardingPage1Subtitle": "Create or join rooms and enjoy synchronized video streaming with friends anywhere in the world.",
+  "onboardingPage2Title": "Private & Secure",
+  "onboardingPage2Subtitle": "Create private rooms protected by passwords and invite only the people you trust.",
+  "onboardingPage3Title": "Chat & Enjoy",
+  "onboardingPage3Subtitle": "Watch videos, chat with friends, use voice controls and enjoy the experience together.",
+  "authSubtitle": "Watch movies and videos together with your friends.",
+  "continueWithGoogle": "Continue with Google",
+  "continueWithFacebook": "Continue with Facebook",
+  "continueWithEmail": "Continue with Email",
+  "orDivider": "OR",
+  "continueButton": "Continue",
+  "socialDialogTitle": "Continue with {provider}",
+  "@socialDialogTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "socialDialogMessage": "Choose a {provider} account to continue.",
+  "@socialDialogMessage": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "emailAuthHeading": "Sign In",
+  "emailFieldLabel": "Email",
+  "passwordFieldLabel": "Password",
+  "forgotPasswordLink": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account?",
+  "createAccountLink": "Create Account",
+  "createAccountHeading": "Create Account",
+  "confirmPasswordFieldLabel": "Confirm Password",
+  "alreadyHaveAccount": "Already have an account?",
+  "signInLink": "Sign In",
+  "forgotPasswordHeading": "Forgot Password",
+  "forgotPasswordSubtitle": "Enter your email and we'll send you a reset link.",
+  "sendResetEmail": "Send Reset Email",
+  "resetEmailSuccessTitle": "Check Your Email",
+  "resetEmailSuccessMessage": "We've sent a password reset link to {email}.",
+  "@resetEmailSuccessMessage": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "backToSignIn": "Back to Sign In",
+  "completeProfileHeading": "Complete Your Profile",
+  "displayNameFieldLabel": "Display Name",
+  "ageFieldLabel": "Age",
+  "countryFieldLabel": "Country",
+  "profileLanguageFieldLabel": "Language",
+  "selectCountrySheetTitle": "Select Country",
+  "selectLanguageSheetTitle": "Select Language",
+  "searchCountryHint": "Search country",
+  "emailRequiredError": "Email is required",
+  "emailInvalidError": "Enter a valid email address",
+  "passwordRequiredError": "Password is required",
+  "passwordTooShortError": "Password must be at least 6 characters",
+  "confirmPasswordMismatchError": "Passwords do not match",
+  "displayNameRequiredError": "Display name is required",
+  "ageInvalidError": "Enter a valid age",
+  "countryRequiredError": "Please select a country",
+  "photoUploadComingSoonMessage": "Photo upload will be available soon",
+  "passwordVisibilityToggleSemanticLabel": "Toggle password visibility",
+  "roomOptionsSemanticLabel": "Room options",
+  "shareRoom": "Share Room",
+  "copyRoomCode": "Copy Room Code",
+  "inviteFriends": "Invite Friends",
+  "reportRoom": "Report Room",
+  "roomCodeCopiedMessage": "Room code copied",
+  "liveBadge": "LIVE",
+  "watchingCount": "{count} people watching",
+  "@watchingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hostLabel": "Host",
+  "roomHostSemanticLabel": "Room host",
+  "watchingNowTitle": "Watching Now",
+  "voiceChat": "Voice Chat",
+  "chatAction": "Chat",
+  "leaveRoom": "Leave Room",
+  "chatComingSoonMessage": "Chat is coming soon",
+  "leaveRoomConfirmTitle": "Leave Room?",
+  "leaveRoomConfirmMessage": "Are you sure you want to leave this room?",
+  "bannerAdPlaceholder": "Banner Ad Area",
+  "roomUnavailableTitle": "Room Unavailable",
+  "roomUnavailableMessage": "We couldn't load this room's details.",
+  "featureComingSoonMessage": "This feature is coming soon",
+  "safetyNoticeSemanticLabel": "Important safety notice",
+  "safetyNoticeTitle": "Important",
+  "safetyNoticeBody": "Welcome to WatchTogether.\nPlease use this app responsibly.\nPlease do not use this platform to share, stream, or distribute any content that violates Islamic values, local laws, or the rights of others — including pornographic or sexual content, violent or hateful content, or any illegal content.\nThe developers of this app do not host or provide any media content.\nYou are solely responsible for the links and content you share within your rooms.\nBy continuing, you agree to use the app responsibly and respectfully.",
+  "safetyNoticeAcceptButton": "✅ I Understand and Agree",
+  "drawerMyProfile": "My Profile",
+  "drawerPremium": "Premium",
+  "drawerFriends": "Friends",
+  "drawerWatchHistory": "Watch History",
+  "drawerNotifications": "Notifications",
+  "drawerSettings": "Settings",
+  "drawerHelpSupport": "Help & Support",
+  "drawerCommunityGuidelines": "Community Guidelines",
+  "drawerPrivacyPolicy": "Privacy Policy",
+  "drawerTermsOfService": "Terms of Service",
+  "drawerRateApp": "Rate App",
+  "drawerAbout": "About",
+  "logout": "Logout",
+  "drawerGuestName": "Guest",
+  "drawerPremiumBadge": "Premium",
+  "drawerMadeWithLove": "Made with ❤️",
+  "logoutDialogTitle": "Log Out?",
+  "logoutDialogMessage": "Are you sure you want to log out of your account?",
+  "settingsTitle": "Settings",
+  "settingsGeneralSection": "General",
+  "settingsAppLanguage": "App Language",
+  "settingsTheme": "Theme",
+  "settingsThemeValueDark": "Dark",
+  "settingsThemeSubtitle": "Light mode is coming soon",
+  "settingsDefaultVideoQuality": "Default Video Quality",
+  "settingsAutoPlayVideos": "Auto Play Videos",
+  "settingsVibration": "Vibration",
+  "settingsMicrophonePermission": "Microphone Permission",
+  "settingsNotificationsPermission": "Notifications Permission",
+  "settingsClearCache": "Clear Cache",
+  "settingsClearCacheSubtitle": "Free up space used by cached images and videos",
+  "settingsClearCacheConfirmTitle": "Clear Cache?",
+  "settingsClearCacheConfirmMessage": "This will remove temporary files. Your account and data are not affected.",
+  "settingsClearCacheSuccess": "Cache cleared",
+  "videoQualityPickerTitle": "Default Video Quality",
+  "videoQualityAuto": "Auto",
+  "videoQuality1080": "1080p",
+  "videoQuality720": "720p",
+  "videoQuality480": "480p",
+  "videoQuality360": "360p",
+  "aboutTitle": "About",
+  "aboutAppVersionLabel": "App Version",
+  "aboutDeveloperLabel": "Developer",
+  "aboutDeveloperValue": "WatchTogether Team",
+  "aboutBuildNumberLabel": "Build Number",
+  "comingSoonTitle": "Coming Soon",
+  "createRoomTitle": "Create Room",
+  "createRoomSubtitle": "Set up your room and invite your friends",
+  "createRoomInviteFriendsSemanticLabel": "Invite friends",
+  "sectionRoomType": "Room Type",
+  "publicRoomTitle": "Public Room",
+  "publicRoomDescription": "Anyone can find and join your room",
+  "publicRoomHint": "Public rooms are listed on the home page and visible to everyone.",
+  "privateRoomTitle": "Private Room",
+  "privateRoomDescription": "Only people with the password can join your room",
+  "privateRoomHint": "Private rooms are hidden. Share the password only with your friends.",
+  "sectionMovieInfo": "Movie / Video Information",
+  "roomTitleFieldLabel": "Room Title (Movie Name)",
+  "roomTitleFieldHint": "e.g. John Wick 4",
+  "roomTitleRequiredError": "Room title is required",
+  "roomCoverLabel": "Room Cover (Optional)",
+  "roomCoverSubtitle": "Add movie poster or background",
+  "chooseImageButton": "Choose Image",
+  "videoUrlFieldLabel": "Video URL (MP4 or M3U8)",
+  "videoUrlFieldHint": "Paste your MP4 or M3U8 link here",
+  "videoUrlRequiredError": "Video URL is required",
+  "videoUrlInvalidError": "Enter a valid MP4 or M3U8 link",
+  "convertVideoPrompt": "Don't have an MP4 or M3U8 link?",
+  "convertVideoLink": "Convert your video here",
+  "supportedFormatsLabel": "Supported formats",
+  "premiumFeatureBadge": "Premium Feature",
+  "premiumRequiredDialogTitle": "Premium Required",
+  "premiumRequiredDialogMessage": "This feature requires Premium. Upgrade now?",
+  "upgradeNow": "Upgrade Now",
+  "sectionFriends": "Friends (Optional)",
+  "searchFriendsHint": "Search friends by name...",
+  "friendsSelectedCount": "{count} friend(s) selected",
+  "@friendsSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noFriendsFoundMessage": "No friends found",
+  "sectionRoomSettings": "Room Settings",
+  "maxParticipantsLabel": "Max Participants",
+  "freePlanBadge": "Free Plan",
+  "premiumPlanBadge": "Premium Plan",
+  "freePlanParticipantsNote": "Free Plan allows up to 4 participants only. Upgrade to Premium to increase the number of participants.",
+  "sectionMoreSettings": "More Settings",
+  "allowVoiceChatLabel": "Voice Chat",
+  "allowVoiceChatSubtitle": "Allow participants to talk",
+  "allowChatLabel": "Allow Chat",
+  "allowChatSubtitle": "Allow participants to send messages",
+  "allowScreenControlLabel": "Allow Screen Control",
+  "allowScreenControlSubtitle": "Allow participants to control playback",
+  "startMutedLabel": "Start with Muted Audio",
+  "startMutedSubtitle": "Join the room with audio muted",
+  "sectionPassword": "Password (Only for Private Room)",
+  "roomPasswordFieldHint": "Enter room password",
+  "roomPasswordHelperText": "Use a strong password to keep your room secure.",
+  "roomPasswordRequiredError": "Password is required for private rooms",
+  "roomPasswordLengthError": "Password must be 6-30 characters",
+  "createRoomButton": "Create Room",
+  "createRoomFooterNote": "You can change these settings anytime",
+  "createRoomFailedMessage": "Couldn't create the room. Please try again.",
+  "roomInviteNotificationTitle": "{name} invited you to a room",
+  "@roomInviteNotificationTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "roomInviteNotificationBody": "Join \"{title}\" on WatchTogether",
+  "@roomInviteNotificationBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "videoPlayerAdLoadingLabel": "Loading...",
+  "videoPlayerAdWaitMessage": "Please wait for the ad to finish.",
+  "videoPlayerAdminBadge": "Admin",
+  "roomMembersCount": "{current} / {max}",
+  "@roomMembersCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "onlyOwnerCanControlPlaybackMessage": "Only the room owner can control playback.",
+  "micOnLabel": "Mic On",
+  "micOffLabel": "Mic Off",
+  "speakerOnLabel": "Speaker On",
+  "speakerOffLabel": "Speaker Off",
+  "chatLabel": "Chat",
+  "participantsLabel": "Participants",
+  "joinRequestMessage": "{name} wants to join.",
+  "@joinRequestMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "acceptLabel": "Accept",
+  "rejectLabel": "Reject",
+  "roleOwner": "Owner",
+  "roleAdmin": "Admin",
+  "roleMember": "Member",
+  "mutedLabel": "Muted",
+  "onlineLabel": "Online",
+  "systemJoinedVerb": "joined",
+  "systemLeftVerb": "left",
+  "systemRoomSuffix": "the room.",
+  "chatEmptyMessage": "No messages yet. Say hi!",
+  "chatInputHint": "Type a message...",
+  "chatSendSemanticLabel": "Send message",
+  "participantsPanelEmptyMessage": "No one else is here yet.",
+  "fullscreenSemanticLabel": "Fullscreen",
+  "lockControlsSemanticLabel": "Lock controls",
+  "unlockControlsSemanticLabel": "Unlock controls",
+  "replay10SemanticLabel": "Replay 10 seconds",
+  "forward10SemanticLabel": "Forward 10 seconds",
+  "playSemanticLabel": "Play",
+  "pauseSemanticLabel": "Pause",
+  "previousSemanticLabel": "Previous",
+  "nextSemanticLabel": "Next",
+  "hostTransferredMessage": "{name} is now the host.",
+  "@hostTransferredMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "participantsSearchHint": "Search friends...",
+  "participantsMenuMakeModerator": "Make Moderator",
+  "participantsMenuRemoveFromRoom": "Remove from Room",
+  "participantsMenuViewProfile": "View Profile",
+  "removeParticipantConfirmTitle": "Remove participant?",
+  "removeParticipantConfirmMessage": "{name} will be removed from this room.",
+  "@removeParticipantConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "participantRemovedMessage": "{name} was removed from the room.",
+  "@participantRemovedMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "participantPromotedMessage": "{name} is now a moderator.",
+  "@participantPromotedMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "copyInviteLinkLabel": "Copy Invite Link",
+  "inviteLinkCopiedMessage": "Invite link copied to clipboard.",
+  "shareInviteLinkHint": "Share the link to invite more friends",
+  "selectFriendsToInviteTitle": "Select friends to invite",
+  "sendInvitesButton": "Send Invites",
+  "friendsInvitedMessage": "Invites sent.",
+  "noParticipantsFoundMessage": "No participants found",
+  "friendsScreenSubtitle": "Stay connected and watch together",
+  "friendsChipAllFriends": "All Friends",
+  "friendsChipRequests": "Requests",
+  "friendsChipBlocked": "Blocked",
+  "friendsSeeAll": "See all",
+  "friendsWantsToBeFriend": "wants to be your friend",
+  "friendsMutualCount": "{count} mutual friend(s)",
+  "@friendsMutualCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "friendsAllFriendsSectionTitle": "All Friends",
+  "friendsSortLabel": "Sort",
+  "friendsSortSheetTitle": "Sort friends by",
+  "friendsSortRecentlyAdded": "Recently Added",
+  "friendsSortAlphabetical": "Alphabetical",
+  "friendsSortByStatus": "Status",
+  "friendsStatusAway": "Away",
+  "friendsStatusOffline": "Offline",
+  "friendsInviteCardSubtitle": "Invite your friends and watch together",
+  "friendsMenuInviteToRoom": "Invite To Room",
+  "friendsMenuRemoveFriend": "Remove Friend",
+  "friendsMenuBlockUser": "Block User",
+  "friendsMenuReportUser": "Report User",
+  "friendsMenuVoiceCall": "Voice Call",
+  "friendsMenuVideoCall": "Video Call",
+  "friendsMenuUnblockUser": "Unblock",
+  "friendsComingSoonMessage": "Coming soon.",
+  "friendsRemoveConfirmTitle": "Remove friend?",
+  "friendsRemoveConfirmMessage": "{name} will be removed from your friends list.",
+  "@friendsRemoveConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsBlockConfirmTitle": "Block user?",
+  "friendsBlockConfirmMessage": "{name} won't be able to contact you or see your activity.",
+  "@friendsBlockConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsUnblockConfirmMessage": "{name} will be able to send you friend requests again.",
+  "@friendsUnblockConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsReportTitle": "Report user",
+  "friendsReportPrompt": "Why are you reporting {name}?",
+  "@friendsReportPrompt": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsReportSubmitted": "Report submitted. Thank you.",
+  "friendsRemovedMessage": "Friend removed.",
+  "friendsBlockedMessage": "User blocked.",
+  "friendsUnblockedMessage": "User unblocked.",
+  "friendsRequestAcceptedMessage": "You are now friends with {name}.",
+  "@friendsRequestAcceptedMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsRequestDeclinedMessage": "Friend request declined.",
+  "friendsNoFriendsTitle": "No friends yet",
+  "friendsNoFriendsSubtitle": "Start adding friends to enjoy WatchTogether together.",
+  "friendsFindFriendsButton": "Find Friends",
+  "friendsNoRequestsTitle": "No friend requests",
+  "friendsNoRequestsSubtitle": "You're all caught up.",
+  "friendsNoBlockedTitle": "No blocked users",
+  "friendsNoBlockedSubtitle": "Users you block will appear here.",
+  "friendsNoSearchResults": "No results found.",
+  "friendsSearchHint": "Search friends, requests, blocked...",
+  "friendsInviteShareText": "Join me on WatchTogether! Watch videos together in sync: {link}",
+  "@friendsInviteShareText": {
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "friendsInviteToRoomUnavailableMessage": "Join or create a room first to invite friends into it.",
+  "friendsReportReasonSpam": "Spam",
+  "friendsReportReasonHarassment": "Harassment",
+  "friendsReportReasonInappropriate": "Inappropriate content",
+  "friendsReportReasonImpersonation": "Impersonation",
+  "friendsReportReasonOther": "Other",
+  "friendsAcceptRequestSemanticLabel": "Accept friend request",
+  "friendsRejectRequestSemanticLabel": "Reject friend request",
+  "friendsSearchButtonLabel": "Search",
+  "friendsRequestsSectionTitle": "Friend Requests",
+  "historyScreenTitle": "History",
+  "historyClearDialogTitle": "Clear watch history",
+  "historyClearDialogMessage": "Are you sure you want to clear your watch history?",
+  "historyClearButton": "Clear History",
+  "historyContinueWatchingTitle": "Continue Watching",
+  "historyContinueWatchingSubtitle": "Pick up where you left off",
+  "historySectionToday": "Today",
+  "historySectionYesterday": "Yesterday",
+  "historySectionThisWeek": "This Week",
+  "historySectionEarlier": "Earlier",
+  "historyVideoLabel": "Video",
+  "historyWatchedJustNow": "Watched just now",
+  "historyWatchedMinutesAgo": "Watched {minutes}m ago",
+  "@historyWatchedMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "historyWatchedHoursAgo": "Watched {hours}h ago",
+  "@historyWatchedHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "historyWatchedYesterday": "Watched yesterday",
+  "historyWatchedDaysAgo": "Watched {days} days ago",
+  "@historyWatchedDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "historyMenuContinueWatching": "Continue Watching",
+  "historyMenuViewRoomDetails": "View Room Details",
+  "historyMenuRemove": "Remove from History",
+  "historyRemoveDialogTitle": "Remove from history?",
+  "historyRemoveDialogMessage": "This item will be removed from your watch history.",
+  "historyRemoveButton": "Remove",
+  "historySearchHint": "Search your history...",
+  "historyNoSearchResults": "No matching history found.",
+  "historyEmptyTitle": "No watch history yet",
+  "historyEmptySubtitle": "Videos you watch with your friends will appear here.",
+  "historyRoomUnavailableMessage": "This room is no longer available.",
+  "historyClearedMessage": "Watch history cleared.",
+  "historyItemRemovedMessage": "Removed from history.",
+  "premiumHeroTitle": "Upgrade your watch together experience",
+  "premiumHeroSubtitle": "Exclusive features without limits",
+  "premiumBillingMonthly": "Monthly",
+  "premiumBillingYearly": "Yearly",
+  "premiumYearlySaveBadge": "Save {percent}%",
+  "premiumSwipeHint": "Swipe to explore plans",
+  "premiumMostPopularBadge": "Most Popular",
+  "premiumChoosePlanButton": "Choose Plan",
+  "premiumCurrentPlanButton": "Current Plan",
+  "premiumPerMonthSuffix": "/ month",
+  "premiumPerYearSuffix": "/ year",
+  "premiumPriceUnavailable": "Not available yet",
+  "premiumPriceLoading": "Loading price…",
+  "premiumPlansUnavailableMessage": "Premium plans aren't available yet. Please check back soon.",
+  "premiumPurchaseError": "Something went wrong with your purchase. Please try again.",
+  "premiumPurchaseSuccess": "You're premium now! Enjoy your new features.",
+  "premiumSecurePaymentTitle": "Secure payment",
+  "premiumSecurePaymentDescription": "Payments are processed securely through Google Play.",
+  "premiumLegalPrefix": "By continuing, you agree to our ",
+  "premiumLegalConjunction": " and ",
+  "premiumBasicBadge": "Basic",
+  "premiumBasicSubtitle": "Perfect for small groups",
+  "premiumPlusSubtitle": "Perfect for bigger gatherings",
+  "premiumMaxBadge": "MAX",
+  "premiumMaxSubtitle": "The ultimate watch party",
+  "premiumBasicFeature1": "Up to 8 participants per room",
+  "premiumBasicFeature2": "No ads",
+  "premiumBasicFeature3": "Unlimited private rooms",
+  "premiumBasicFeature4": "MP4 and M3U8 support",
+  "premiumBasicFeature5": "Video quality up to 1080p",
+  "premiumBasicFeature6": "Custom room background",
+  "premiumBasicFeature7": "Basic premium badge",
+  "premiumBasicFeature8": "Basic support",
+  "premiumPlusFeature1": "Up to 15 participants per room",
+  "premiumPlusFeature2": "No ads",
+  "premiumPlusFeature3": "All Basic features",
+  "premiumPlusFeature4": "Choose 1 Moderator",
+  "premiumPlusFeature5": "Video quality up to 4K",
+  "premiumPlusFeature6": "Save Continue Watching progress",
+  "premiumPlusFeature7": "Extended Watch History",
+  "premiumPlusFeature8": "More friend invitations",
+  "premiumPlusFeature9": "Priority room entry",
+  "premiumPlusFeature10": "Plus premium badge",
+  "premiumPlusFeature11": "Advanced support",
+  "premiumMaxFeature1": "Up to 20 participants per room",
+  "premiumMaxFeature2": "No ads",
+  "premiumMaxFeature3": "All Plus features",
+  "premiumMaxFeature4": "Multiple Moderators",
+  "premiumMaxFeature5": "Video quality up to 4K HDR",
+  "premiumMaxFeature6": "Highest room creation priority",
+  "premiumMaxFeature7": "Room statistics",
+  "premiumMaxFeature8": "More friend invitations",
+  "premiumMaxFeature9": "Advanced participant controls",
+  "premiumMaxFeature10": "Exclusive Max badge",
+  "premiumMaxFeature11": "Priority technical support",
+  "@premiumYearlySaveBadge": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "drawerMyRooms": "My Rooms",
+  "drawerPremiumBadgeBasic": "Premium Basic",
+  "drawerPremiumBadgePlus": "Premium Plus",
+  "drawerPremiumBadgeMax": "Premium Max",
+  "profileAccountInformationSection": "Account Information",
+  "profileNotificationsSection": "Notifications",
+  "profileLanguageSection": "Language",
+  "profileAppPreferencesSection": "App Preferences",
+  "profileAccountActionsSection": "Account Actions",
+  "profileDisplayNameLabel": "Display Name",
+  "profileEmailLabel": "Email",
+  "profileCurrentPlanLabel": "Current Plan",
+  "profilePlanFree": "Free",
+  "profileNotifyRoomInvitations": "Room Invitations",
+  "profileNotifyFriendRequests": "Friend Requests",
+  "profileNotifyAppUpdates": "App Updates",
+  "profileDeleteAccount": "Delete Account",
+  "profileDeleteAccountConfirmTitle": "Delete your account?",
+  "profileDeleteAccountConfirmMessage": "This permanently deletes your WatchTogether account and cannot be undone.",
+  "profileDeleteAccountError": "Couldn't delete your account. Please try again.",
+  "profilePhotoUpdateError": "Couldn't update your profile photo. Please try again.",
+  "profileNameUpdateError": "Couldn't update your name. Please try again.",
+  "myRoomsActiveTab": "Active",
+  "myRoomsEndedTab": "Ended",
+  "myRoomsActiveEmpty": "You don't have any active rooms yet. Create one to get started!",
+  "myRoomsEndedEmpty": "Rooms you've hosted will show up here once they end.",
+  "myRoomsLoadError": "Couldn't load your rooms. Please try again.",
+  "myRoomsJoinButton": "Join",
+  "myRoomsStatusWaiting": "Waiting",
+  "myRoomsStatusPlaying": "Playing",
+  "myRoomsStatusPaused": "Paused",
+  "myRoomsStatusEnded": "Ended",
+  "helpFaqSection": "FAQ",
+  "helpReportProblemSection": "Report a Problem",
+  "helpReportProblemHint": "Tell us what went wrong and we'll look into it.",
+  "helpReportProblemPlaceholder": "Describe the problem…",
+  "helpReportProblemSubmit": "Submit Report",
+  "helpReportProblemSuccess": "Thanks — your report was submitted.",
+  "helpReportProblemError": "Couldn't submit your report. Please try again.",
+  "helpContactSupportSection": "Contact Support",
+  "helpContactSupportAction": "Email Support",
+  "helpContactSupportUnavailable": "Support contact isn't set up yet.",
+  "faqQuestion1": "How do I create a watch party room?",
+  "faqAnswer1": "Tap Create Room on the home screen, add a video link or file, choose your settings, and share the room code with friends.",
+  "faqQuestion2": "How many people can join my room?",
+  "faqAnswer2": "Free accounts can host up to 4 participants. Premium plans raise that limit — see the Premium screen for each plan's cap.",
+  "faqQuestion3": "Why can't I add certain video links?",
+  "faqAnswer3": "WatchTogether supports MP4 and M3U8 streams. Other formats or unsupported sources may not play correctly.",
+  "faqQuestion4": "How do I add friends?",
+  "faqAnswer4": "Open Friends from the menu, search by name or email, and send a friend request. Once accepted, you can invite them to rooms.",
+  "faqQuestion5": "How do I cancel my Premium subscription?",
+  "faqAnswer5": "Manage or cancel your subscription anytime from the Google Play Store's Subscriptions section.",
+  "faqQuestion6": "Is my watch history private?",
+  "faqAnswer6": "Yes — your watch history is tied to your account and only visible to you.",
+  "guidelinesResponsibleUseTitle": "Responsible Use",
+  "guidelinesResponsibleUseBody": "WatchTogether is a place to watch videos with friends. Please use it responsibly and treat other members with respect.",
+  "guidelinesAllowedContentTitle": "Allowed Content",
+  "guidelinesAllowedContentBody": "You may share links to content you have the right to watch and share, such as movies, shows, and videos you legally own or have permission to stream.",
+  "guidelinesProhibitedContentTitle": "Prohibited Content",
+  "guidelinesProhibitedContentBody": "Do not use WatchTogether to share, stream, or distribute illegal content, pornographic or sexual content, violent or graphic content, or content that incites hatred against any person or group.",
+  "guidelinesLocalLawsTitle": "Respecting Local Laws",
+  "guidelinesLocalLawsBody": "You are responsible for complying with the laws of your country and region when using WatchTogether, including any restrictions on the content you share.",
+  "guidelinesRespectOthersTitle": "Respecting Others",
+  "guidelinesRespectOthersBody": "Treat every member with respect. Harassment, hate speech, and content that violates the rights of others are not allowed and may result in account action.",
+  "guidelinesReportingTitle": "Reporting a Problem",
+  "guidelinesReportingBody": "If you see content or behavior that violates these guidelines, please report it from the room or user's menu, or contact us from Help & Support.",
+  "legalContentPendingNote": "This screen's final legal text hasn't been finalized yet. The sections below outline what this document covers; they don't describe WatchTogether's actual policies.",
+  "legalPlaceholderBody": "Final content for this section hasn't been provided yet.",
+  "privacyDataCollectedTitle": "Information We Collect",
+  "privacyDataUseTitle": "How We Use Information",
+  "privacyThirdPartiesTitle": "Third-Party Services",
+  "privacyRetentionTitle": "Data Retention",
+  "privacyYourRightsTitle": "Your Rights",
+  "privacyContactTitle": "Contact Us",
+  "termsAcceptanceTitle": "Acceptance of Terms",
+  "termsUserResponsibilitiesTitle": "User Responsibilities",
+  "termsSubscriptionsTitle": "Subscriptions & Billing",
+  "termsTerminationTitle": "Termination",
+  "termsLiabilityTitle": "Limitation of Liability",
+  "termsContactTitle": "Contact Us",
+  "homeSearchSemanticLabel": "Search",
+  "homeMenuSemanticLabel": "Menu",
+  "homeWelcomeBack": "Welcome back,\n{name} 👋",
+  "@homeWelcomeBack": {
+    "description": "Home screen welcome greeting with the user's name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWelcomeSubtitle": "What are we watching together today?",
+  "homeQuickActionsTitle": "Quick Actions",
+  "homeQuickActionCreateRoom": "Create Room",
+  "homeQuickActionCreateRoomDesc": "Start a new watch party",
+  "homeQuickActionJoinRoom": "Join Room",
+  "homeQuickActionJoinRoomDesc": "Enter a room code",
+  "homeQuickActionFriends": "Friends",
+  "homeQuickActionFriendsDesc": "See who's online",
+  "homeQuickActionHistory": "History",
+  "homeQuickActionHistoryDesc": "Your watched rooms",
+  "homePublicRoomsTitle": "Public Rooms",
+  "homeSeeAll": "See all",
+  "homeNoPublicRooms": "No public rooms available right now.",
+  "homeStatusLive": "Live",
+  "homeStatusWaiting": "Waiting",
+  "homeJoinRoomButton": "Join",
+  "homeOpenRoomButton": "Open",
+  "homeWaitingForApproval": "Waiting for admin approval",
+  "homeJoinRequestRejected": "Your request to join was declined.",
+  "homeContinueWatchingTitle": "Continue Watching",
+  "homeRoomNoLongerAvailable": "This room is no longer available.",
+  "homeGoPremiumTitle": "Go Premium",
+  "homeGoPremiumSubtitle": "Unlock more features and remove ads",
+  "homeUpgradeNowButton": "Upgrade Now",
+  "homeSearchHint": "Search public rooms...",
+  "joinRoomTitle": "Join Room",
+  "joinRoomSubtitle": "Enter the room code a host shared with you to join instantly.",
+  "joinRoomCodeLabel": "Room Code",
+  "joinRoomCodeHint": "e.g. AB12CD34",
+  "joinRoomCodeRequiredError": "Please enter a room code.",
+  "joinRoomNotFoundError": "No room found with that code.",
+  "joinRoomEndedError": "This room has already ended.",
+  "joinRoomFullError": "This room is full.",
+  "joinRoomWrongPasscodeError": "Incorrect passcode.",
+  "joinRoomPasscodeLabel": "Room Passcode",
+  "joinRoomPasscodeHint": "Enter passcode",
+  "joinRoomUnlockButton": "Unlock & Join",
+  "joinRoomJoinButton": "Join Room",
+  "notificationsMarkAllAsRead": "Mark all as read",
+  "notificationsClearRead": "Clear read notifications",
+  "notificationsClearReadConfirmMessage": "This will permanently delete every notification you've already read. This can't be undone.",
+  "notificationsMoreOptions": "More options",
+  "notificationsUnreadSummary": "You have {count} unread notifications",
+  "@notificationsUnreadSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationsAllCaughtUp": "You're all caught up",
+  "notificationsFilterAll": "All",
+  "notificationsFilterRooms": "Rooms",
+  "notificationsFilterFriends": "Friends",
+  "notificationsFilterApp": "App",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsEmptyDescription": "Room invitations, friend requests and updates will appear here.",
+  "notificationsLoadError": "Couldn't load notifications",
+  "notificationsJoinAction": "Join",
+  "notificationsDeclineAction": "Decline",
+  "notificationsAcceptAction": "Accept",
+  "notificationsRejectAction": "Reject",
+  "notificationsJoinRequestTitle": "{userName} wants to join {roomName}",
+  "@notificationsJoinRequestTitle": {
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      },
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsRoomUnavailable": "This room is no longer available.",
+  "notificationTimeJustNow": "Just now",
+  "notificationTimeMinutesAgo": "{minutes}m ago",
+  "@notificationTimeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTimeHoursAgo": "{hours}h ago",
+  "@notificationTimeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTimeYesterday": "Yesterday",
+  "notificationTimeDaysAgo": "{days}d ago",
+  "@notificationTimeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "addFriendTitle": "Add Friend",
+  "addFriendSearchHint": "Search by name...",
+  "addFriendSearchPrompt": "Search for people to add as friends",
+  "addFriendSearchError": "Couldn't search right now",
+  "addFriendNoResults": "No users found",
+  "addFriendAddButton": "Add Friend",
+  "addFriendRequestSentLabel": "Request Sent",
+  "friendRequestNotificationTitle": "{name} sent you a friend request",
+  "@friendRequestNotificationTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "friendRequestNotificationBody": "Accept or decline from your notifications",
+  "friendsChipSent": "Sent",
+  "friendsCancelRequestButton": "Cancel",
+  "friendsNoSentRequestsTitle": "No sent requests",
+  "friendsNoSentRequestsSubtitle": "Requests you send will appear here until they're accepted.",
+  "friendsRequestSentMessage": "Friend request sent",
+  "friendsRequestCancelledMessage": "Request cancelled",
+  "addFriendAlreadyFriendsLabel": "Friends",
+  "roomPermissionDeniedTitle": "Access Denied",
+  "roomPermissionDeniedMessage": "You don't have permission to view this room.",
+  "roomNetworkErrorTitle": "Connection Problem",
+  "roomNetworkErrorMessage": "Couldn't reach the server. Check your connection and try again.",
+  "roomUnknownErrorTitle": "Something Went Wrong",
+  "roomUnknownErrorMessage": "We couldn't load this room right now. Please try again.",
+  "videoPlayerInvalidUrlTitle": "Video Unavailable",
+  "videoPlayerInvalidUrlMessage": "This room doesn't have a valid video source.",
+  "videoPlayerPlaybackErrorTitle": "Playback Error",
+  "videoPlayerPlaybackErrorMessage": "This video couldn't be played — the format may not be supported or the source may be unavailable."
+}

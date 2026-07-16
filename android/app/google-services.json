@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370078869544",
+    "project_id": "watch-together-468f2",
+    "storage_bucket": "watch-together-468f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370078869544:android:1a52ab015fe527e5496d1d",
+        "android_client_info": {
+          "package_name": "com.watchtogether.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEJau9OFgsvQx1lsKwBp2RzuuUfYzYQlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

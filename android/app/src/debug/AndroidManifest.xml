@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The debug/profile-only INTERNET permission the standard Flutter
+         template adds for VM service access during `flutter run`/
+         `flutter attach` — harmless alongside the main manifest's own
+         INTERNET permission (network features need it in every variant
+         anyway, this one is specifically what the Flutter tool looks for). -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
