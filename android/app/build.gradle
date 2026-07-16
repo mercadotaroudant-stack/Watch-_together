@@ -32,7 +32,7 @@ android {
     // google-services.json from the Firebase console, or Google/Firebase
     // sign-in and Crashlytics will silently stop matching this app.
     namespace "com.watchtogether.app"
-    compileSdk 34
+    compileSdk 36
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -52,7 +52,7 @@ android {
         applicationId "com.watchtogether.app"
         // firebase_auth 5.x / recent Firebase Android SDKs require 23+.
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion 34
+        targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
