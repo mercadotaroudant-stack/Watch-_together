@@ -735,7 +735,7 @@ class _VideoPlayerScreenState extends ConsumerState<VideoPlayerScreen> with Widg
 
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult:: (didPop, result) {
+      onPopInvoked: (didPop, result) {
         if (didPop) return;
         _handleLeavePressed();
       },
