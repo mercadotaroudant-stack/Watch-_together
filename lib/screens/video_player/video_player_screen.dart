@@ -1,3 +1,4 @@
+
 import 'dart:async';
 import 'dart:math' as math;
 
@@ -738,7 +739,6 @@ class _VideoPlayerScreenState extends ConsumerState<VideoPlayerScreen> with Widg
       onPopInvoked: (didPop) {
   if (didPop) return;
   _handleLeavePressed();
-},
       },
       child: Scaffold(
         backgroundColor: AppColors.videoPlayerBackground,
